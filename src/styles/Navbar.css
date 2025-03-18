@@ -1,0 +1,14 @@
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+  padding: 10px 20px;
+  box-shadow: none;
+}
+
+.navbar-custom .container {
+  background: transparent !important;
+}
