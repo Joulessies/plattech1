@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar-custom {
   position: fixed;
   top: 0;
@@ -11,4 +13,25 @@
 
 .navbar-custom .container {
   background: transparent !important;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #f26b8a;
+}
+
+.navbar-custom .navbar-nav .nav-link.active {
+  color: #f26b8a;
 }

@@ -8,3 +8,10 @@
 .bg-pink {
   background-color: #f26b8a !important;
 }
+
+body {
+  background-color: #fdf3dc;
+  height: 1000px;
+  width: 100vw;
+  overflow: hidden;
+}
